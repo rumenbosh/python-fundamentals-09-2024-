@@ -199,7 +199,7 @@ print(is_prime)
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer -> You tell me :)) 
+#### Correct Answer -> B: False 
 </p>
 </details>
 
@@ -235,7 +235,7 @@ d) The factorial of 5 is: 50
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer -> You tell me :)) 
+#### Correct Answer -> C: 120 
 
 </p>
 </details>
@@ -256,7 +256,7 @@ print(a, b)
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer -> You tell me :)) 
+#### Correct Answer -> B: 10  5
 </p>
 </details>
 
@@ -276,6 +276,6 @@ print(a, b)
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer -> You tell me :)) 
+#### Correct Answer -> B: 10  5
 </p>
 </details>

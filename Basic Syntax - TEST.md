@@ -199,7 +199,7 @@ print(is_prime)
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer -> You tell me :)) 
+#### Correct Answer -> B: False 
 </p>
 </details>
 

@@ -256,7 +256,7 @@ print(a, b)
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer -> B: 10  5
+#### Correct Answer -> B: 10 5
 </p>
 </details>
 
@@ -276,6 +276,6 @@ print(a, b)
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Correct Answer ->B: 10 5
+#### Correct Answer -> B: 10 5
 </p>
 </details>

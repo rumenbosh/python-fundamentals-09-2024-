@@ -16,6 +16,12 @@ Develop a Python script that generates a right-angled triangle pattern. The scri
 ****
 *****
 ```
+num_rows = int(input())
+for i in range(1, num_rows + 1):
+    print('*' * i)
+```
+
+```
 
 ### Pattern 2: Square with Hollow Center
  
@@ -29,6 +35,7 @@ Craft a Python program that produces a square pattern with a hollow center. The 
 *****
 ```
 
+```
 ### Pattern 3: Diamond
 
 Write a Python script that displays a diamond pattern based on the number of rows (height) specified by the user. For instance, if the user enters 5, the output should resemble the following:
@@ -51,7 +58,10 @@ Design a Python code snippet to print a left-angled triangle pattern. The user s
 **
 *
 ```
-
+num_rows = int(input())
+for i in range(num_rows, 0, -1):
+    print('*' * i)
+```
 ### Pattern 5: Hollow Square
 
 Implement a Python program that prints a square pattern with a hollow center, where the user specifies the size of the square. For example, if the user inputs 6, the output should be:
@@ -86,6 +96,12 @@ Write a Python program that prints a right-angled triangle using numbers. The us
 123
 1234
 12345
+```
+n = int(input())
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(j, end=' ')
+    print()
 ```
 
 ### Pattern 8: Inverted Pyramid
@@ -124,6 +140,10 @@ Craft a Python script to print a mirrored right-angled triangle pattern. The use
   ***
  ****
 *****
+```
+num_rows = int(input())
+for i in range(1, num_rows + 1):
+    print(' ' * (num_rows - i) + '*' * i)
 ```
 
 ### Pattern 11: Alternating Star-Dash Square

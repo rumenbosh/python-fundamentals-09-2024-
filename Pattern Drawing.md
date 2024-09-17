@@ -34,7 +34,11 @@ Craft a Python program that produces a square pattern with a hollow center. The 
 *   *
 *****
 ```
-
+num_row = int(input())
+print('*' * num_row)
+for i in range(1, num_row - 1):
+    print('*' + ' ' * (num_row - 2) + '*')
+print('*' * num_row)
 ```
 ### Pattern 3: Diamond
 
@@ -47,7 +51,26 @@ Write a Python script that displays a diamond pattern based on the number of row
  ***
   *
 ```
-
+```
+num_rows = int(input())  #If even number is the input, it will still print add stars only
+stars = 1
+if num_rows % 2 == 0:
+    space = int((num_rows / 2) - 1)
+else:
+    space = int(num_rows // 2)
+while True:
+    print(' ' * space, stars * '*')
+    if space == 0:
+        break
+    space -= 1
+    stars += 2
+while True:
+    space += 1
+    stars -= 2
+    print(' ' * space, stars * '*')
+    if stars <= 1:
+        break
+```
 ### Pattern 4: Left-angled Triangle
 
 Design a Python code snippet to print a left-angled triangle pattern. The user should provide the number of rows. For instance, if the user inputs 4, the output should be:
@@ -74,7 +97,13 @@ Implement a Python program that prints a square pattern with a hollow center, wh
 *    *
 ******
 ```
-
+```
+num_row = int(input())
+print('*' * num_row)
+for i in range(1, num_row - 1):
+    print('*' + ' ' * (num_row - 2) + '*')
+print('*' * num_row)
+```
 ### Pattern 6: Pyramid
 
 Create a Python script that prints a pyramid pattern based on the user-input number of rows. For example, if the user inputs 4, the output should be:
@@ -84,6 +113,19 @@ Create a Python script that prints a pyramid pattern based on the user-input num
   ***
  *****
 *******
+```
+```
+num_rows = int(input())
+stars = 1
+space = num_rows - 1
+
+while True:
+    print(' ' * space, stars * '*')
+    if space == 0:
+        break
+    space -= 1
+    stars += 2
+
 ```
 
 ### Pattern 7: Right-angled Triangle (Numbers)
@@ -114,6 +156,18 @@ Develop a Python script that prints an inverted pyramid pattern based on the num
   *****
    ***
     *
+```
+```
+num_rows = int(input())
+space = 0
+stars = (num_rows * 2) - 1
+while True:
+    print(' ' * space, stars * '*')
+    if stars <= 1:
+        break
+    space += 1
+    stars -= 2
+
 ```
 
 ### Pattern 9: Diamond (Numbers)
